@@ -7,7 +7,7 @@ from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 
 # Modelo entrenado con tagged.csv
-modelo = load_model("modelo.h5")
+modelo = load_model("modelo_octubre.h5")
 
 # Tokenizer con un vocabulario máximo de 6000, tomado de tagged.csv
 with open('tokenizer.pickle', 'rb') as handle:
