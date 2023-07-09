@@ -9,3 +9,9 @@ __pycache__/
 
 diarios_sentimiento-env/
 venv/
+
+*.csv
+
+*.pickle
+
+*.xlsx
